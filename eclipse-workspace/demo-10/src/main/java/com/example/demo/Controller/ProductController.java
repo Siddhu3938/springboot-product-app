@@ -35,7 +35,7 @@ public class ProductController {
 	@GetMapping("/products")
 	public ResponseEntity< List<Product>> getproducts()
 	{
-		System.out.prntln("hello");
+		
 		List<Product> product = service.addproducts();
 		return new ResponseEntity<>(product,HttpStatus.OK);
 	}
