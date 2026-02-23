@@ -113,6 +113,7 @@ public class ProductController {
 	   }
 	   else
 	   {
+		   System.out.println("Hello");
 		   return new ResponseEntity<>("Product not found",HttpStatus.NOT_FOUND);
 	   }
    }
